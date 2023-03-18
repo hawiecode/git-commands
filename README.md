@@ -37,7 +37,7 @@ Este repo es una recopilación de comandos mas utilizados en Git para programado
   git commit -m 'nombre del commit'
 ```
 
-## Ver los commits:
+### Ver los commits:
 
 ```javascript
   git log
@@ -49,10 +49,58 @@ Este repo es una recopilación de comandos mas utilizados en Git para programado
   git branch -M main
 ```
 
-## Ver los branch creados:
+### Ver los branch creados:
 
 ```javascript
   git branch
+```
+
+### Checar los branch:
+
+```javascript
+  git checkout [nueva_rama]
+```
+
+### Fusionar branch:
+
+```javascript
+  git merge [rama]
+```
+
+### Renombrar branch actual pocisionado:
+
+```javascript
+  git branch -M 'nombre_branch'
+```
+
+### Eliminar branch:
+
+```javascript
+  git branch -d nombre_rama
+```
+
+### Eliminación forzada de branch:
+
+```javascript
+  git branch -D nombre_rama
+```
+
+### Eliminación de branch remota [metodo largo]:
+
+```javascript
+  git push nombre_remote --delete remote_branch
+```
+
+### Eliminación de branch remota [metodo corto]:
+
+```javascript
+  git push nombre_remote :remote_branch
+```
+
+### Sincroniza los branch locales y remotos:
+
+```javascript
+  git fetch -p
 ```
 
 ## Añadir un remote al git:
