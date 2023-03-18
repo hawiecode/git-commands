@@ -7,6 +7,11 @@ Este repo es una recopilación de comandos mas utilizados en Git para programado
 ```javascript
   git init
 ```
+## Clonar Repositorio:
+
+```javascript
+  git clone https://github.com/'USERNAME'/'NOMBRE DEL REPO'.git
+```
 
 ## ver que estado del git:
 
@@ -56,9 +61,20 @@ Este repo es una recopilación de comandos mas utilizados en Git para programado
   git remote add origin https://github.com/'USERNAME'/'NOMBRE DEL REPO'.git
 ```
 
-## Hacer push al git:
+## Ver los remote del git:
+
+```javascript
+  git remote -v
+```
+
+## Hacer push al git por primera vez:
 
 ```javascript
   git push -u 'remote name' 'branch name' (ejemplo: git push -u origin main)
 ```
 
+## Si has hecho push una primera vez, bastara escribir:
+
+```javascript
+  git push
+```
