@@ -46,7 +46,7 @@ Este repo es una recopilación de comandos mas utilizados en Git para programado
 ## Crear branch main:
 
 ```javascript
-  git branch -M main
+  git branch 'nombre_branch'
 ```
 
 ### Ver los branch creados:
